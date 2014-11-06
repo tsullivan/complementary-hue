@@ -11,6 +11,19 @@ describe('@P1@comph node module.', function() {
 		assert.equal(comph.complementaryHue(0), 180);
 		assert.equal(comph.complementaryHue(30), 210);
 
+		// number as a string
+		assert.equal(comph.complementaryHue('30'), 210);
+
+	});
+
+	it('must return undefined for non-numeric', function() {
+
+		// non-valid numbers
+		assert.equal(comph.complementaryHue(), undefined);
+		assert.equal(comph.complementaryHue('.'), undefined);
+		assert.equal(comph.complementaryHue(null), undefined);
+		assert.equal(comph.complementaryHue({}), undefined);
+
 	});
 });
 

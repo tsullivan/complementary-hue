@@ -1,40 +1,43 @@
 {
-   "name" : "comph",
-   "homepage" : "https://github.com/tsullivan/comph",
-   "version" : "0.0.0",
-   "preferGlobal" : "true",
-   "scripts" : {
-      "test" : "grunt"
-   },
-   "bugs" : "https://github.com/tsullivan/comph/issues",
-   "bin" : {
-      "comph" : "cli.js"
-   },
-   "keywords" : [
-      "comph",
-      ""
-   ],
-   "main" : "lib/comph.js",
-   "description" : "Calculates the complementary value of a given hue",
-   "repository" : {
-      "type" : "git",
-      "url" : "https://github.com/tsullivan/comph"
-   },
-   "license" : "MIT",
-   "files" : [
-      "lib"
-   ],
-   "author" : {
-      "email" : "tsullivan@paypal.com",
-      "name" : "Tim Sullivan"
-   },
-   "devDependencies" : {
-      "jshint-stylish" : "^0.2.0",
-      "time-grunt" : "^0.3.1",
-      "grunt-contrib-nodeunit" : "^0.3.3",
-      "grunt-contrib-jshint" : "^0.10.0",
-      "grunt-contrib-watch" : "^0.6.1",
-      "load-grunt-tasks" : "^0.4.0",
-      "grunt-mocha-cli" : "^1.9.0"
-   }
+  "name": "comph",
+  "homepage": "https://github.com/tsullivan/comph",
+  "version": "0.0.0",
+  "preferGlobal": "true",
+  "scripts": {
+    "test": "grunt"
+  },
+  "bugs": "https://github.com/tsullivan/comph/issues",
+  "bin": {
+    "comph": "cli.js"
+  },
+  "keywords": [
+    "comph",
+    ""
+  ],
+  "main": "lib/comph.js",
+  "description": "Calculates the complementary value of a given hue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsullivan/comph"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "author": {
+    "email": "tsullivan@paypal.com",
+    "name": "Tim Sullivan"
+  },
+  "devDependencies": {
+    "jshint-stylish": "^0.2.0",
+    "time-grunt": "^0.3.1",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "grunt-mocha-cli": "^1.9.0"
+  },
+  "dependencies": {
+    "validator": "^3.22.1"
+  }
 }
