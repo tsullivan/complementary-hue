@@ -25,6 +25,12 @@ describe('@P1@comph node module.', function() {
 		assert.equal(comph.complementaryHue({}), undefined);
 
 	});
+
+	it('must cycle down for input greater than 360', function() {
+
+		assert.equal(comph.complementaryHue(1000), 100);
+
+	});
 });
 
 describe('@P3@awesomeness', function() {
