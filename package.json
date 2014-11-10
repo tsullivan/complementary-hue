@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "preferGlobal": "true",
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+	"coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --ui bdd -R spec -t 5000"
   },
   "bugs": "https://github.com/tsullivan/comph/issues",
   "bin": {
@@ -38,6 +39,8 @@
     "grunt-mocha-cli": "^1.9.0"
   },
   "dependencies": {
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1",
     "validator": "^3.22.1"
   }
 }
