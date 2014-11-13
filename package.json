@@ -13,7 +13,8 @@
   },
   "keywords": [
     "comph",
-    ""
+    "complementary",
+    "colors"
   ],
   "main": "lib/comph.js",
   "description": "Calculates the complementary value of a given hue",
